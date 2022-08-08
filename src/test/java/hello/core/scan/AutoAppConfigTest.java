@@ -8,7 +8,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 import static org.assertj.core.api.Assertions.*;
 
-public class AUtoAppConfigTest {
+public class AutoAppConfigTest {
 
     @Test
     void basicScan() {
