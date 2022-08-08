@@ -31,6 +31,9 @@ public class AppConfig {
 
 //    @Autowired MemberRepository memberRepository;
 
+    // @Bean memberService -> new MemoryMemberRepository()
+    // @Bean orderService -> new MemoryMemberRepository()
+
     @Bean
     public MemberService memberService() {
         System.out.println("call AppConfig.memberService");
